@@ -1,0 +1,292 @@
+@media screen and (max-width: 1440px){
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	header{
+		width: 100%;
+		height: 80px;
+		background-color: #b8d6f2;
+		line-height: 30px
+	}
+	.head{
+		height: 40px;
+		padding-left: 1%;
+		padding-top: 2px;
+	}
+	.brand{
+		width: 19%;
+		float: left;
+		background-color: #8fb8df;
+		margin-right: 5%;
+		margin-left: 1%;
+		height: 30px;
+		text-align: center;
+	}
+	.nav{
+		width: 50%;
+		float: left;
+		background-color: #8fb8df;
+		margin-right: 5%;
+		height: 30px;
+		text-align: center;
+	}
+	.tool{
+		width: 19%;
+		float: left;
+		background-color: #8fb8df;
+		margin-right: 1%;
+		height: 30px;
+		text-align: center;
+	}
+	.content{
+		width: 100%;
+		height: 500px;
+		background-color: white;
+	}
+	.hero{
+		width: 69%;
+		background-color: #b8d6f2;
+		height: 140px;
+		float: left;
+		margin-right: 2%;
+		margin-top: 5px;
+	}
+	.hero p{
+		line-height: 65px;
+		padding-left: 1%;
+	}
+	.hero1{
+		width: 65%;
+		height: 70px;
+		background-color: #8fb8df;
+		float: left;
+		margin-right: 8%;
+		text-align: center;
+	}
+	.hero2{
+		width: 25%;
+		height: 70px;
+		background-color: #8fb8df;
+		float: left;
+		text-align: center;
+	}
+	.ads{
+		width: 29%;
+		background-color: #1f7dd5;
+		height: 140px;
+		float: left;
+		margin-top: 5px;
+	}
+	.ads p{
+		line-height: 150px;
+		text-align: center;
+	}
+	.body{
+		width: 69%;
+		height: 345px;
+		background-color: #b8d6f2;
+		float: left;
+		margin-right: 2%;
+		margin-top: 5px;
+	}
+	.body_p{
+		width: 100%;
+		height:40px;
+		line-height: 40px;
+		padding-left: 1%;
+	}
+	.body1{
+		width: 25%;
+		height: 290px;
+		background-color: #8fb8df;
+		float: left;
+		margin-right: 8%;
+		line-height: 290px;
+		text-align: center;
+	}
+	.body2{
+		width: 65%;
+		height: 290px;
+		background-color: #8fb8df;
+		float: left;
+		line-height: 290px;
+		text-align: center;
+	}
+	.sidebar{
+		width: 29%;
+		height: 345px;
+		background-color: #b8d6f2;
+		float: left;
+		margin-top: 5px;
+	}
+	.sidebar_p{
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+	}
+	.sidebar_feature{
+		height: 290px;
+		line-height: 290px;
+		background-color: #8fb8df;
+		text-align: center;
+	}
+	footer{
+		width: 100%;
+		background-color: #b8d6f2;
+		height: 80px;
+	}
+	footer p{
+		padding-left: 1%;
+	}
+}
+@media screen and (max-width: 1024px){
+	*{
+		margin:0px;
+		padding: 0px;
+	}
+	header{
+		width: 100%;
+		height: 80px;
+		background-color: #b8d6f2;
+	}
+	.content{
+		width: 100%;
+		height: 760px;
+	}
+	.hero{
+		width: 100%;
+		background-color: #b8d6f2;
+		height: 140px;
+
+	}
+	.hero p{
+		line-height: 40px;
+	
+	}
+	.hero1{
+		width: 100%;
+		height: 46.67px;
+		margin-bottom: 2px;
+	}
+	.hero2{
+		width: 100%;
+		height: 46.67px;
+	}
+	.body{
+		width: 100%;
+		height: 500px;
+		float: left;
+	}
+	.body_p{
+		width: 65%;
+		height: 40px;
+		line-height: 40px;
+	}
+	.body1{
+		width: 65%;
+		height: 100px;
+		line-height: 100px;
+		margin-bottom: 5px;
+		margin-left: 1%;
+	}
+	.body2{
+		width: 98%;
+		height: 350px;
+		line-height: 350px;
+		margin-left: 1%;
+	}
+	.ads{
+		width: 30%;
+		height: 140px;
+		position: absolute;
+		z-index: 1;
+		margin-left: 70%;
+		margin-top: 150px;
+	}
+	.sidebar{
+		width: 100%;
+		height: 110px;
+	}
+	.sidebar_p{
+		line-height: 30px;
+		width: 98%;
+		margin-left: 1%;
+	}
+	.sidebar_feature{
+		width: 98%;
+		height: 60px;
+		line-height: 70px;
+		margin-left: 1%;
+	}
+	footer{
+		width: 100%;
+		height: 80px;
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 480px){
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	header{
+		width: 100%;
+		height: 110px;
+	}
+	.head{
+		height: 20px;
+		line-height: 20px;
+	}
+	.brand{
+		height: 40px;
+		width: 98%;
+		margin-left: 1%;
+		margin-bottom: 5px;
+		line-height: 40px;
+	}
+	.nav{
+		height: 35px;
+		width: 58%;
+		margin: 0 1%;
+	}
+	.tool{
+		height: 35px;
+		width: 39%;
+	}
+	.body{
+		width: 100%;
+		height: 270px;
+	}
+	.body_p{
+		width: 100%;
+	}
+	.body1{
+		width: 98%;
+		height: 50px;
+		line-height: 50px;
+		margin-left: 1%;
+	}
+	.body2{
+		width: 98%;
+		height: 100px;
+		line-height: 100px;
+		margin-top: 65px;
+		margin-left: 1%;
+	}
+	.ads{
+		width: 98%;
+		height: 50px;
+		margin-top: 250px;
+		margin-left: 1%;
+		position: absolute;
+		z-index: 1;
+	}
+	.ads p{
+		line-height: 50px;
+	}
+	footer{
+		margin-top: -220px;
+	}
+
+}
