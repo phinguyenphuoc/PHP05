@@ -1,0 +1,43 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper{
+	width: 200px;
+	height: 160px;
+	border: solid 2px black;
+	box-shadow: 4px 4px 3px grey;
+}
+p{
+	font-weight: bold;
+	font-size: 20px;
+}
+.list{
+	width: 180px;
+	margin: 10px auto;
+}
+.list ul li{
+	margin-top: 5px;
+	background-color: white;
+	padding: auto 5px;
+	border: solid 2px blue;
+}
+.list ul li.special{
+	background-color: grey;
+}
+a:link{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+a:hover{
+	color: blue;
+}
+.wrapper2{
+	width: 1000px;
+	height: 200px;
+}
+h3 {
+	line-height: 100px;
+}
+
