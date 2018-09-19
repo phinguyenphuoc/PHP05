@@ -1,0 +1,160 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper{
+	width: 1280px;
+	margin: 0 auto;
+}
+header{
+	background-image: url(caurong.jpg);
+	height: 200px;
+}
+.slogan{
+	width: 40%;
+	padding: 35px 0px 0px 20px;
+	text-align: center;
+}
+.slogan h2{
+	color: orange;
+	margin-top: 10px;
+}
+.findtool{
+	width: 220px;
+	margin-top: 40px;
+	height: 30px;
+	float: right;
+}
+.findbut{
+	vertical-align: middle;
+	background-color: white;
+	margin-left: -4px;
+}
+.findtext{
+	height: 26px;
+}
+.nav{
+	width: 100%;
+	height: 50px;
+	background-color: #2a78c2;
+}
+.nav ul{
+	position: relative;
+	list-style-type: none;
+}
+.nav ul li{
+	float: left;
+	line-height: 50px;
+	padding: 0px 30px;
+}
+.nav ul li a{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+}
+.nav ul ul{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0%;
+}
+.nav ul ul li{
+	float: left;
+	border-right: solid 1px black;
+}
+.nav ul ul li:last-child{
+	border-right: none;
+}
+.nav ul li:hover >ul{
+	display: block;
+}
+.nav >ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.add_nav{
+	height: 50px;
+	background-color: #abcdec;
+}
+.content{
+	width: 100%;
+	height: 750px;
+	margin-top: 10px;
+}
+.post{
+	width: 70%;
+	float: left;
+	height: 750px;
+}
+.main_post{
+	width: 66.97%;
+	float: left;
+	height: 500px;
+}
+.main_post a{
+	text-decoration: none;
+	color: black;
+}
+.sidebar{
+	width: 33.03%;
+	height: 500px;
+	background-color: white;
+	float: left;
+}
+.sidebar h3{
+	width: 90%;
+	margin-left: 10px;
+	border-bottom: solid 2px blue;
+}
+.sidebar ul{
+	list-style-type: none;
+}
+.sidebar ul li{
+	width: 90%;
+	margin: 0px auto;
+	padding: 10px 10px;
+	border-bottom: solid 1px blue;
+}
+.sidebar ul li:last-child{
+	border: none;
+}
+.sidebar ul li a{
+	text-decoration: none;
+	color: black;
+}
+.add_post{
+	width: 100%;
+	height: 250px;
+	float: left;
+}
+.add_post1{
+	width: 220px;
+	float: left;
+}
+.add_post1 a{
+	text-decoration: none;
+	color: black;
+}
+.ad{
+	width: 30%;
+	float: left;
+	height: 750px;
+}
+.ad img{
+	width: 98%;
+	margin: 10px 1% 15px;
+	height: 160px;
+}
+footer{
+	background-image: url(footer.png);
+	height: 230px;
+}
+.inf{
+	width: 50%;
+	margin:0px auto;
+	padding-top: 30px;
+	padding-left: 30px;
+}

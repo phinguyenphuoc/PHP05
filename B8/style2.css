@@ -1,0 +1,33 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+.wrapper{
+	width: 960px;
+	height: 500px;
+	border: solid 2px #97c3ec;
+	border-radius: 10px;
+	margin: 50px auto;
+	box-shadow: 4px 4px 3px grey;
+}
+.contact{
+	background-color: #97c3ec;
+	height: 50px;
+	line-height: 50px;
+}
+p{
+	margin-left: 130px;
+	margin-top: 40px;
+}
+.space{
+	margin-left: 98px;
+	border-radius: 5px;
+}
+.comment{
+	vertical-align: middle;
+}
+.sub_but{
+	margin-left: 300px;
+	width: 70px;
+	height: 30px;
+}

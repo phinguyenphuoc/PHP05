@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+</head>
+<body>
+	<form action="#" name="register" method="post" target="_blank">
+		<p>Name: <input type="text" name="name"></p>
+		<p>Pass: <input type="password" name="name"></p>
+		<p>Email: <input type="text" name="email" disabled value="abc@gmail.com"></p>
+		<p>Phone: <input type="text" name="Phone" placeholder="0905030698"></p>
+		<p><input type="submit" name="submit" value="register"></p>
+		<p><input type="button" name="button" value="register button"></p>
+		<p><input type="reset" name="reset" value="reset"></p>
+		<p><input type="image" name="image" src="images.png"></p>
+		<!-- Radio,checkbox -->
+		<p>Gender:
+			<input type="Radio" name="gender" value="male">Male
+			<input type="Radio" name="gender" value="female">Female
+		</p>
+		<p>Favourite:
+			<input type="checkbox" name="food" value="food">Food
+			<input type="checkbox" name="sport" value="sport">Sport
+		</p>
+		<p>City
+			<select name="city">
+				<option value="dn">Da Nang</option>
+				<option value="hn">Ha Noi</option>
+			</select>
+		</p>
+		<p>Description
+			<textarea rows="20" cols="50"></textarea>
+		</p>
+		<p>Avatar
+			<input type="file" name="avatar">
+		</p>
+	</form>
+</body>
+</html>
