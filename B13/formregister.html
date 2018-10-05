@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="#" name="registerform" enctype="multipart/form-data">
+		<p>HoTen:
+			<p style="color: red; display: none;" id="hide1">vui long dien ten</p>
+			<input type="text" name="ten" id="ten">
+		</p>
+		<p>Namsinh:
+			<p style="color: red; display: none;" id="hide2">vui long dien nam sinh</p>
+			<input type="number" name="namsinh" min="1900" max="2018" id="namsinh">
+		</p>
+		<p>GioiTinh:
+			<br>
+			<p style="color: red; display: none;" id="hide3">vui long chon gioi tinh</p>
+			<input type="radio" name="gioitinh" value="nam" id="nam" onclick="window.open('nam.html')">nam<br>
+			<input type="radio" name="gioitinh" value="nu" id="nu" onclick="window.open('nu.html')">nu
+		</p>
+		<p>Sothich:
+			<p style="color: red; display: none;" id="hide4">vui long dien so thich</p>
+			<input type="checkbox" name="sothich" value="bongda">bong da
+			<input type="checkbox" name="sothich" value="amnhac">am nhac
+		</p>
+		<p>
+			<input type="button" name="button" value="submit" onclick="validateForm1();validateForm2();validateForm3()">
+		</p>
+	</form>
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="common.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+var myDate = new Date();
+var myDay = myDate.getDay();
+console.log(myDay);
+var myMonth = myDate.getMonth() + 1;
+console.log(myMonth);
+var date = myDate.getDate();
+console.log(date);
+var myYear = myDate.getFullYear();
+console.log(myYear);
+console.log(myYear + '-' + myMonth + '-' + date);
