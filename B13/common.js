@@ -4,6 +4,7 @@ function validateForm1() {
         $('#hide1').show(500);
     }else{
     	 $('#hide1').hide();
+         return 1;
     }
 }
 function validateForm2() {
@@ -12,35 +13,51 @@ function validateForm2() {
         $('#hide2').show(500);
     }else{
          $('#hide2').hide();
+          return 1;
     }
 }
-// function validateForm4() {
-//     var x = document.forms["registerform"]["gioitinh"].value;
-//     if (x == "") {
-//         $('#hide3').show(500);
-//     }else{
-//          $('#hide3').hide();
-//     }
-// }
-// function validateForm4() {
-//     var x = document.forms["registerform"]["sothich"].value;
-//     if (x == "") {
-//         $('#hide4').show(500);
-//     }else{
-//          $('#hide4').hide();
-//     }
-// }
-function validateForm3(){
-    if ($('input:checkbox', this).is(':checked') && $('input:radio', this).is(':checked')) {
-        console.log('a');
-    } else {
-        alert('Please select something!');
+function checkGender(){
+    if ($('#nam').is(':checked')==false && $('#nu').is(':checked')==false){
+        $('#hide3').show(500);
+    }if($('#nam').is(':checked')){
+        window.open('nam.html');
+    }if ($('#nu').is(':checked')){
+        window.open('nu.html');
+    }
+}
+function checkHobby(){
+    if ($('#bongda').is(':checked')==false &&  $('#amnhac').is(':checked')==false){
+        $('#hide4').show(500);
+    }else{
+        $('#hide4').hide();
+        return 1;
+    }
+}
+function validateSite(){
+    if(validateForm1()==1 && validateForm2()==1 && checkHobby()==1){
+        checkGender();
+    }else{
         return false;
     }
 }
-// $("#nam").click(function(){
-//     window.open('nam.html');
-//     var x=$('#ten').val();
-//     var y=$('#namsinh').val();
-//     var z=$('#sothich').val();
-// })
+function saveData(){
+    localStorage.setItem("name", $('#ten').val());
+    localStorage.setItem("birth", $('#namsinh').val());
+    // localStorage.setItem("hobby1", $('#bongda').val());
+    // console.log( localStorage.getItem("hobby1"));
+}
+function saveHobby(){
+    if ($('#bongda').is(':checked')==true && $('#amnhac').is(':checked')==true) {
+        localStorage.setItem("hobby",1);
+    }else if($('#bongda').is(':checked')==true){
+        localStorage.setItem("hobby",2);
+    }else if($('#amnhac').is(':checked')==true){
+        localStorage.setItem("hobby",3);
+    }
+}
+function saveGender(){
+    if ($('#nam').is(':checked')==true){
+        localStorage.setItem("gender", 1);
+    }else localStorage.setItem("gender", 2);
+}
+

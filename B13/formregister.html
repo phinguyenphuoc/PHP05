@@ -17,16 +17,16 @@
 		<p>GioiTinh:
 			<br>
 			<p style="color: red; display: none;" id="hide3">vui long chon gioi tinh</p>
-			<input type="radio" name="gioitinh" value="nam" id="nam" onclick="window.open('nam.html')">nam<br>
-			<input type="radio" name="gioitinh" value="nu" id="nu" onclick="window.open('nu.html')">nu
+			<input type="radio" name="gioitinh" value="nam" id="nam">nam<br>
+			<input type="radio" name="gioitinh" value="nu" id="nu">nu
 		</p>
 		<p>Sothich:
-			<p style="color: red; display: none;" id="hide4">vui long dien so thich</p>
-			<input type="checkbox" name="sothich" value="bongda">bong da
-			<input type="checkbox" name="sothich" value="amnhac">am nhac
+			<p style="color: red; display: none;" id="hide4">vui long chon so thich</p>
+			<input type="checkbox" name="sothich" value="bongda" id="bongda">bong da
+			<input type="checkbox" name="sothich" value="amnhac" id="amnhac">am nhac
 		</p>
 		<p>
-			<input type="button" name="button" value="submit" onclick="validateForm1();validateForm2();validateForm3()">
+			<input type="button" name="button" value="submit" onclick="validateForm1();validateForm2();validateSite();saveData();checkHobby();saveHobby();saveGender()">
 		</p>
 	</form>
 	<script src="jquery-3.3.1.min.js"></script>
